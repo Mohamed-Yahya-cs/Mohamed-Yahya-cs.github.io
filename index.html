@@ -31,13 +31,48 @@
 .nav-tabs {
     margin-bottom: 0;
 }
+
+
+
+
+/* Carousel Styling */
+.slide1{
+  background-image: url('ka1.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide2{
+  background-image: url('ka2.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide3{
+  background-image: url('ka3.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 2em;
+}
+
 </style>
   </head>
   <body>
      <div class="container">
  
 <div class="page-header">
-<h1 style="font-family:verdana;">Kazem AL-saher</h1>
+<h1 style="font-family:cursive;">Kazem AL-saher</h1>
      </div>
 </div> 
 
@@ -90,41 +125,40 @@
 <br>
     
    
-
-<br>
 <div id="theCarousel" class="carousel slide" data-ride="carousel">
  
   <ol class="carousel-indicators">
-    <li data-target="ka1.jpg" data-slide-to="0" class="active"> </li >
-    <li data-target="ka2.jpg" data-slide-to="1"> </li>
-    <li data-target="ka3.jpg" data-slide-to="2"> </li>
+    <li data-target="#theCarousel" data-slide-to="0" class="active"> </li >
+    <li data-target="#theCarousel" data-slide-to="1"> </li>
+    <li data-target ="#theCarousel" data-slide-to="2"> </li>
   </ol >
  
   <div class="carousel-inner">
     <div class="item active" >
     <div class ="slide1"></div>
     <div class="carousel-caption">
-      <h1>Amazing Backgrounds</h1>
-      <p>Thousands of Backgrounds for Free</p>
+      <h1>Official Musician</h1>
+      <p>all his alpum in one page</p>
       
     </div>
   </div>
   <div class="item">
   <div class="slide2"></div>
   <div class="carousel-caption">
-    <h1>Thousands of Colors</h1>
-    <p>Every Color you can Imagine</p>
+    <h1>The best ever</h1>
+    <p>Arabic singer</p>
   </div>
   </div>
   <div class="item">
   <div class="slide3"></div>
-  <div class="carousel-caption">
-  <h1>Amazing Illustrations</h1>
-  <p>And they are All Free</p>
+  <div class="carousel-caption"><br>
+  <h1>THe most famous </h1>
+  
   </div>
   </div>
   </div>
  
+  <!-- Set the actions to take when the arrows are clicked -->
   <a class="left carousel-control" href="#theCarousel" data-slide="prev">
   <span class="glyphicon glyphicon-chevron-left"> </span>
   </a>
